@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="tailwind.css" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:ital,wght@0,700;1,400&display=swap');
+    </style> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>SHAVER &#8211; Our First WebSite</title>
+    <link rel="icon" type="image/png" href="favicon.gif" /> 
+    
+</head>
+
+<body >
+
+
+<!-- Navbar -->
+
+<section id="HAIRCUT&BEARD" class="absolute top-0 w-full h-full" style="
+background-image: url('https://shaver.freevision.me/wp-content/uploads/2016/06/shutterstock_263264798-compressor.jpg');
+">
+
+<header class="body-font text-yellow-500 bg-cover">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      
+      <div class="bg-gradient-to-r cursor-pointer">
+        <img src="logo@2x.png"> 
+      </div>
+    </a>
+    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center hover:text-yellow-500 cursor-pointer" 
+    style='font-family: "Rye", cursive ;font-size: small;'>
+      <button class="mr-5 hover:text-gray-900 cursor-pointer">HOME</button>
+      <button class="mr-5 hover:text-gray-900 cursor-pointer">ABOUT</button>
+      <button class="mr-5 hover:text-gray-900 cursor-pointer">SHAVERS</button>
+      <button class="mr-5 hover:text-gray-900 cursor-pointer">PRICES</button>
+      <button class="mr-5 hover:text-gray-900 cursor-pointer">PHOTOS</button>
+      <button class="mr-5 hover:text-gray-900 cursor-pointer">CONTACTS</button>
+      <button class="mr-5 hover:text-gray-900 cursor-pointer">NEWS</button>
+  </nav>
+    
+  </div>
+</header>
+
+
+
+
+
+</section>
+
+
+<!-- Main Area -->
+<main>
+  <!-- Hero -->
+  
+    
+  
+  <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 95vh">
+    
+    
+    <div class="container relative mx-auto" data-aos="fade-in">
+      <div class="items-center flex flex-wrap">
+        <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center mt-32">
+          <div>
+            <h1 class=" text-white font-semibold text-5xl m-10" style='font-family: "Rye", cursive ; font-size :xxx-large ;'">
+              HAIRCUT & BEARD
+            </h1>
+            <p class="mt-4 text-lg text-gray-300 "style='font-family:"Trocchi", serif ; font-size :large ;'">
+              At Shaver it is our goal to keep our clients feeling clean,
+               relaxed and fulfilled. Whether you are maintaining the look
+                of a corporate professional to a fashion conscious rebel,
+                 your experience here will guarantee the luxury you expect 
+                 and the style you desire.
+            </p>
+            
+            
+        <div class="p-5">
+          <button class="rounded-lg h-12 w-24 bg-yellow-500 hover:bg-orange-600 text-white"
+        style='font-family: "Rye", cursive ; font-size: small;'>
+          BOOK NOW
+        </button>
+        </div>
+          </div>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+
+    
+    <div class="bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden" style="height: 120px; transform: translateZ(0px)">
+      <img class="bottom-0" src="bottom_row_ripped.png">
+      
+    </div>
+    
+  </div>
+  
+
+
+
+  <!-- About Section -->
+  <section id="about" class="relative py-20 bg-white text-black"
+  style="background-image: url('https://shaver.freevision.me/wp-content/themes/shaver/images/assets/bg_pattern.png');">
+
+  >
+    <div class="container mx-auto px-4">
+      <div class="items-center flex flex-wrap">
+        <div class="w-full md:w-4/12 ml-auto mr-16 px-4 h-84" data-aos="fade-right">
+          <img alt="..." class="max-w-full rounded-lg shadow-lg " src="oldfashion_barber_chair.png" />
+        </div>
+        <div class="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="fade-left">
+          <div class="md:pr-12">
+            
+            <h3 class="text-5xl uppercase font-bold " style='font-family: "Rye", cursive ; font-size :xxx-l ;'>OUR PRIORITY IS TO LOOK GOOD
+              </h3>
+            <p class="mt-4 text-lg leading-relaxed "style='font-family:"Trocchi", serif ; font-size :large ;'>
+              As professional barbers and stylists we stay 
+              passionate about our field and keeping you 
+              on top of the latest trends for men. So sit back,
+              relax and enjoy the decadence of Male Grooming.
+            </p>
+            <ul class="list-none mt-6">
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="font-semibold inline-block py-3 mr-3 text-orange-500"><i class="fas fa-dumbbell fa-2x"></i></span>
+                  </div>
+                  
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="font-semibold inline-block py-3 mr-3 text-orange-500"><i class="fas fa-hard-hat fa-2x"></i></span>
+                  </div>
+                  
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="font-semibold inline-block py-3 mr-3 text-orange-500"><i class="fas fa-users fa-2x"></i></span>
+                  </div>
+                  
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Barbers Section -->
+  <section id="OURBARBERS" class=" text-gray-600 body-font w-full h-full bg-cover bg-transparent" 
+  style="background-image: url('https://shaver.freevision.me/wp-content/uploads/2016/06/shutterstock_164302073-compressor.jpg');">
+  <img class="top-0" src="bottom_row_ripped180.png">
+    
+
+    <div class="container px-5 py-24 mx-auto bg-cover ">
+      
+          <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="text-5xl font-medium title-font mb-4 text-white" 
+        style='font-family: "Rye", cursive ; font-size :xxxx-l ;'>OUR BARBERS</h1>
+        <img class="mx-auto size-full wp-image-589 aligncenter" src="golden_logo_badge-compressor.png">
+         </div>
+      <div class="flex flex-wrap m-4">
+        
+        <div class="p-4 lg:w-1/3 md:w-1/2">
+          <div class="h-full flex flex-col items-center text-center">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-84 object-cover object-center mb-4" src="shutterstock_321655508-compressor.png">
+            <div class="w-full">
+              <h2 class="title-font font-medium text-lg text-yellow-500" 
+              style='font-family:"Trocchi", serif ; font-size :x-large ;'>Thomas</h2>
+              <img class="h-16 w-40" src="floral2.jpg.png">
+              <h3 class="text-white mb-3" style='font-family:"Trocchi", serif ; font-size :large ;'>Available</h3>
+              
+              <span class="inline-flex">
+                <a class="text-gray-500">
+                  <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/3 md:w-1/2">
+          <div class="h-full flex flex-col items-center text-center">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-84 object-cover object-center mb-4" src="shutterstock_321658484-compressor.png">
+            <div class="w-full">
+              <h2 class="title-font font-medium text-lg text-yellow-500"
+              style='font-family:"Trocchi", serif ; font-size :x-large ;'>John</h2>
+              <img class="h-16 w-40" src="floral2.jpg.png">
+              <h3 class="text-white mb-3" style='font-family:"Trocchi", serif ; font-size :large ;'>Available</h3>
+              
+              <span class="inline-flex">
+                <a class="text-gray-500">
+                  <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/3 md:w-1/2">
+          <div class="h-full flex flex-col items-center text-center">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-84 object-cover object-center mb-4" src="shutterstock_258976448-compressor.png">
+            <div class="w-full">
+              <h2 class="title-font font-medium text-lg text-yellow-500"
+              style='font-family:"Trocchi", serif ; font-size :x-large ;'>Finn</h2>
+              <img class="h-16 w-40" src="floral2.jpg.png">
+              <h3 class="text-white mb-3" style='font-family:"Trocchi", serif ; font-size :large ;'>Available</h3>
+              
+              <span class="inline-flex">
+                <a class="text-gray-500">
+                  <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-gray-500">
+                  <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+    <div class="bottom-0 left-0 right-0 w-full" style="height: 90px;">
+      <img class="bottom-0" src="bottom_row_ripped.png">
+      
+    </div>
+    
+  </section>
+
+
+
+
+  <!-- PRICES & SERVICES -->
+
+  <section id="PRICES&SERVICES" class="text-gray-600 body-font top-0"
+  style="background-image: url('https://shaver.freevision.me/wp-content/themes/shaver/images/assets/bg_pattern.png');">
+    
+    <div class="container px-5 py-24 mx-auto">
+      
+      <div class="flex flex-col text-center w-full mb-20 items-center">
+        <h1 class="sm:text-5xl text-2xl font-medium title-font mb-2 text-black"
+        style='font-family: "Rye", cursive ; font-size :xxxx-l ;'>PRICES & SERVICES</h1>
+        <img class="h-48 w-78 " src="floral2.jpg.png">
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-black"
+        style='font-family:"Trocchi", serif ; font-size :large ;'>For over 100 years we are a landmark of the old school barber.
+          The barber is not a job , it’s art.</p>
+         
+      </div>
+      <div class="flex flex-wrap -m-4">
+        <div class="lg:w-1/4 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="shutterstock_298036562-compressor.jpg">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 opacity-0 hover:opacity-100"
+            style="background-image: url('https://shaver.freevision.me/wp-content/uploads/2016/06/wood_bg-compressor.jpg');">
+              <!-- <img src="oldfashion_barber_chair.png"> -->
+              <!-- PRICES <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>-->
+              <h1 class="title-font text-lg font-medium mb-3 text-white text-center"
+              style='font-family: "Rye", cursive ; font-size :xxx-l ;'>$25 CLASSIC HAIR CUT</h1>
+              <p class="leading-relaxed text-yellow-400"
+              style='font-family:"Trocchi", serif ; font-size :large ;'>Includes deep cleansing shampoo, scalp massage, precision haircut and style, hot towel neck shave, and rejuvenating shoulder and neck massage.</p>
+            </div>
+          </div>
+        </div>
+        
+          <div class="lg:w-1/4 sm:w-1/2 p-4">
+            <div class="flex relative">
+              <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="shutterstock_296116109-compressor.jpg">
+              <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"
+              style="background-image: url('https://shaver.freevision.me/wp-content/uploads/2016/06/wood_bg-compressor.jpg');">
+                
+                <h1 class="title-font text-lg font-medium text-white mb-3 text-center"
+                style='font-family: "Rye", cursive ; font-size :xxx-l ;'>$35 STRAIGHT RAZOR SHAVE</h1>
+                <p class="leading-relaxed text-yellow-400"
+                style='font-family:"Trocchi", serif ; font-size :large ;'>A Traditional Hot Towel Shave. Perfect for a yearly beard removal or a relaxing treatment for the busy professional.</p>
+                
+              </div>
+            </div>
+          </div>
+        <div class="lg:w-1/4 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="shutterstock_364869422-compressor.jpg">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"
+            style="background-image: url('https://shaver.freevision.me/wp-content/uploads/2016/06/wood_bg-compressor.jpg');">
+              
+              <h1 class="title-font text-lg font-medium text-white mb-3 text-center"
+              style='font-family: "Rye", cursive ; font-size :xxx-l ;'>$15 BUZZ CUT</h1>
+              <p class="leading-relaxed text-yellow-400"
+              style='font-family:"Trocchi", serif ; font-size :large ;'>Timeless classic for the young man or gentleman looking for a clean look with low maintenance.<br> <br> <br> </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/4 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="shutterstock_296112071-compressor.jpg">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"
+            style="background-image: url('https://shaver.freevision.me/wp-content/uploads/2016/06/wood_bg-compressor.jpg');">
+              
+              <h1 class="title-font text-lg font-medium text-white mb-3 text-center"
+              style='font-family: "Rye", cursive ; font-size :xxx-l ;'>$50 HAIR CUT & SHAVE</h1>
+              <p class="leading-relaxed text-yellow-400"
+              style='font-family:"Trocchi", serif ; font-size :large ;'>Traditional Haircut plus a Straight Razor Shave w/ Hot Towel.<br> <br> <br> <br> </p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/4 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="shutterstock_345364586-compressor.jpg">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"
+            style="background-image: url('https://shaver.freevision.me/wp-content/uploads/2016/06/wood_bg-compressor.jpg');">
+              
+              <h1 class="title-font text-lg font-medium text-white mb-3 text-center"
+              style='font-family: "Rye", cursive ; font-size :xxx-l ;'>$15 HOT OIL TREATMENT</h1>
+              <p class="leading-relaxed text-yellow-400"
+              style='font-family:"Trocchi", serif ; font-size :large ;'>Relaxing treatment to soothe the scalp and repair damaged hair. Also great to soften that grizzly beard. <br> <br> </p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/4 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="shutterstock_313730645-compressor.jpg">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"
+            style="background-image: url('https://shaver.freevision.me/wp-content/uploads/2016/06/wood_bg-compressor.jpg');">
+              
+              <h1 class="title-font text-lg font-medium text-white mb-3 text-center"
+              style='font-family: "Rye", cursive ; font-size :xxx-l ;'>$20 KIDS’ & SENIORS’ HAIRCUT</h1>
+              <p class="leading-relaxed text-yellow-400"
+              style='font-family:"Trocchi", serif ; font-size :large ;'>Children 12 and under.<br/> Seniors 65 and over until 11:30am. <br> <br> <br> <br> </p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/4 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="shutterstock_296119814-compressor.jpg">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"
+            style="background-image: url('https://shaver.freevision.me/wp-content/uploads/2016/06/wood_bg-compressor.jpg');">
+              
+              <h1 class="title-font text-lg font-medium text-white mb-3 text-center"
+              style='font-family: "Rye", cursive ; font-size :xxx-l ;'>$7 / $15 BEARD TRIM ADD-ON</h1>
+              <p class="leading-relaxed text-yellow-400"
+              style='font-family:"Trocchi", serif ; font-size :large ;'>Trimming and shaping of the beard and a clipper or hot towel razor line-up.<br />
+                When included with a haircut</p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/4 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="shutterstock_234427072-compressor.jpg">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"
+            style="background-image: url('https://shaver.freevision.me/wp-content/uploads/2016/06/wood_bg-compressor.jpg');">
+              
+              <h1 class="title-font text-lg font-medium text-white mb-3 text-center"
+              style='font-family: "Rye", cursive ; font-size :xxx-l ;'>GIFT CARDS</h1>
+              <p class="leading-relaxed text-yellow-400"
+              style='font-family:"Trocchi", serif ; font-size :large ;'>The Shaver Gift Card is good for all products and services sold at any shaver location, as well as for online purchases when the order is placed by phone.</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+  </section>
+  
+  
+  <!-- PRODUCTS -->
+
+  <section id="PRODUCTS" class="text-gray-600 body-font top-0"
+  style="background-image: url('shutterstock_247562731-compressor.jpg');">
+  <img class="top-0" src="bottom_row_ripped180.png">
+  
+  
+    <div class="flex flex-col text-center w-full mb-20 items-center">
+      <h1 class="sm:text-5xl text-2xl font-medium title-font mb-2 text-white"
+      style='font-family: "Rye", cursive ; font-size :xxxx-l ;'> <br> <br> PRODUCTS</h1>
+      <img class="h-48 w-78 " src="floral2.jpg.png">
+ 
+    </div>
+    <div class="container px-5 py-2 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-80 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-80 block" src="shaver_aftershave_balm-compressor-720x720.png">
+          </a>
+          <div class="mt-4 text-center"
+          style='font-family:"Trocchi", serif ; font-size :large ;'>
+            <h2 class="text-yellow-500 title-font text-lg font-medium">After-Shave Balm & Face Moisturizer</h2>
+            <p class="mt-1 text-white">$22.00</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-80 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="shaver_bergamot_aftershave-compressor-720x720.png">
+          </a>
+          <div class="mt-4 text-center"
+          style='font-family:"Trocchi", serif ; font-size :large ;'>
+            <h2 class="text-yellow-500 title-font text-lg font-medium">Bergamot After-Shave</h2>
+            <p class="mt-1 text-white">$15.00</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-80 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="shaver_bundle-compressor-720x720.png">
+          </a>
+          <div class="mt-4 text-center"
+          style='font-family:"Trocchi", serif ; font-size :large ;'>
+            <h2 class="text-yellow-500 title-font text-lg font-medium">Shave Bundle</h2>
+            <p class="mt-1 text-white">$39.99</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-80 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="shaver_field_shave_soap_canister-compressor-720x720.png">
+          </a>
+          <div class="mt-4 text-center"
+          style='font-family:"Trocchi", serif ; font-size :large ;'>
+            <h2 class="text-yellow-500 title-font text-lg font-medium">Field Shave Soap Canister</h2>
+            <p class="mt-1 text-white">$18.40</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-80 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="shaver_glycrein_shave_soap_bar-compressor-720x720.png">
+          </a>
+          <div class="mt-4 text-center"
+          style='font-family:"Trocchi", serif ; font-size :large ;'>
+            <h2 class="text-yellow-500 title-font text-lg font-medium">Glycerin Shave/Face Soap Bar</h2>
+            <p class="mt-1 text-white">$16.00</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-80 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="shaver_matte_pomade_paste-compressor-720x720.png">
+          </a>
+          <div class="mt-4 text-center"
+          style='font-family:"Trocchi", serif ; font-size :large ;'>
+            <h2 class="text-yellow-500 title-font text-lg font-medium"> Matte Pomade Paste</h2>
+            <p class="mt-1 text-white">$21.15</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-80 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="shaver_safety_razor-compressor-720x720.png">
+          </a>
+          <div class="mt-4 text-center"
+          style='font-family:"Trocchi", serif ; font-size :large ;'>
+            <h2 class="text-yellow-500 title-font text-lg font-medium">Safety Razor</h2>
+            <p class="mt-1 text-white">$12.00</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-80 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="shaver_shave_brush-compressor-720x720.png">
+          </a>
+          <div class="mt-4 text-center"
+          style='font-family:"Trocchi", serif ; font-size :large ;'>
+            <h2 class="text-yellow-500 title-font text-lg font-medium">Best Badger Shave Brush</h2>
+            <p class="mt-1 text-white">$18.40</p>
+          </div>
+        </div>
+      </div>
+      <br> <br> <br> <br>
+    </div>
+    <div class="bottom-0 left-0 right-0 w-full" style="height: 90px;">
+      <img class="bottom-0" src="bottom_row_ripped.png">
+      
+    </div>
+  </section>
+
+</main>
+<footer class="text-gray-600 body-font"
+style="background-image: url('https://shaver.freevision.me/wp-content/themes/shaver/images/assets/bg_pattern.png');">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-row md:text-left text-center order-first">
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="text-2xl title-font font-medium text-gray-900 tracking-widest text-sm mb-3 font-bold"
+        style='font-family: "Rye", cursive ; font-size :xx-l ;'">CATEGORIES</h2>
+        <nav class="list-none mb-10"
+        style='font-family:"Trocchi", serif ; font-size :large ;'">
+          <li>
+            <p class="text-gray-600 hover:text-gray-800">
+              <a href="#HAIRCUT&BEARD" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-800"> HAIRCUT & BEARD</a>
+            </p>
+            
+            
+          </li>
+          
+          <li>
+            <p class="text-gray-600 hover:text-gray-800">
+              <a href="#OURBARBERS" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-800"> OUR BARBERS</a>
+            </p>
+            
+          </li>
+          <li>
+            <p class="text-gray-600 hover:text-gray-800">
+              <a href="#PRICES&SERVICES" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-800"> PRICES & SERVICES</a>
+            </p>
+            
+          </li>
+          <li>
+            <p class="text-gray-600 hover:text-gray-800">
+              <a href="#PRODUCTS" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-800"> PRODUCTS</a>
+            </p>
+            
+          </li>
+        </nav>
+      </div>
+
+      <div>
+        <img class="h-80 w-80" src="visage.png">
+
+      </div>
+
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4 font-bold">
+        <h2 class="title-font text-gray-900 tracking-widest text-sm mb-3 text-2xl"
+        style='font-family: "Rye", cursive ; font-size :xx-l ;'">AUTHORS</h2>
+        <nav class="list-none mb-10"
+        style='font-family:"Trocchi", serif ; font-size :large ;'">
+          <li>
+            <a class="text-gray-600 hover:text-gray-800"> Mlle. LGDOUR Chaimae </a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800"> M. DAMOUR Mohammed </a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800"> M. IBOURK Youssef </a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800"> M. EL MOUAQUIT Nizar </a>
+          </li>
+        </nav>
+      </div>
+
+    </div>
+  </div>
+  <div class="bg-gray-800">
+    <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+      <div class="bg-gradient-to-r cursor-pointer">
+        <img src="logo@2x.png"> 
+      </div>
+      <p class="text-sm text-yellow-500 sm:ml-6 sm:mt-0 mt-4">
+        <a rel="noopener noreferrer" class="text-yellow-500 ml-1" target="_blank">Copyright © The shaver</a>
+      </p>
+      <p class="text-sm text-yellow-500 sm:ml-6 sm:mt-0 mt-4">
+        <a href="contact_us.html" rel="noopener noreferrer" class="text-yellow-500 ml-1" target="_blank">© CONTACT US</a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="text-yellow-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-yellow-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+            
+          </svg>
+        </a>
+        <a class="ml-3 text-yellow-500">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-yellow-500">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="web.js"></script>
+</body>
+</html>
